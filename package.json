@@ -1,0 +1,27 @@
+{
+  "name": "dev-as-speed",
+  "version": "1.0.2",
+  "description": "speed up your development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavRepo26/dev-as-speed.git"
+  },
+  "keywords": [
+    "speed",
+    "components"
+  ],
+  "author": "Abhinav shrivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinavRepo26/dev-as-speed/issues"
+  },
+  "homepage": "https://github.com/abhinavRepo26/dev-as-speed#readme",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.1"
+  }
+}
