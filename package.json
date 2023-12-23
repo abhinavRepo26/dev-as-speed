@@ -1,6 +1,6 @@
 {
   "name": "dev-as-speed",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "speed up your development",
   "main": "index.js",
   "scripts": {
