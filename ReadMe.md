@@ -1,6 +1,3 @@
-
-
-
 # dev-as-speed
 
 ## Speed up your development with dev-as-speed
@@ -18,14 +15,15 @@ yarn add dev-as-speed
 ```
 
 ## Usage - App.js
+
 ```bash
 import React from 'react';
-import { ThemeProvider, useTheme } from 'dev-as-speed'; 
+import { ThemeProvider, useTheme } from 'dev-as-speed';
 import { View, Text, TouchableOpacity } from 'react-native';
 
 const App = () => {
-   
-    // define your custom colors for both the theme 
+
+    // define your custom colors for both the theme
     const customLightTheme = {
     // Customized properties for light theme
     primaryColor: '#FF9900',
@@ -67,14 +65,17 @@ export default App;
 
 ### Theme Specification
 
-* The `ThemeProvider` component allows you to manage themes within your React Native application. It provides flexibility by accepting custom theme properties for both light and dark themes.
+- The `ThemeProvider` component allows you to manage themes within your React Native application. It provides flexibility by accepting custom theme properties for both light and dark themes.
 
-* `useTheme` hook provide the properties for the theme utilization
- 1. currentTheme - to get the current theme properties / colors
- 2. theme - to check the current enable theme
+- `useTheme` hook provide the properties for the theme utilization
+
+1.  currentTheme - to get the current theme properties / colors
+2.  theme - to check the current enable theme
 
 ### Default Theme colors
+
 #### lightTheme
+
 ```bash
 export const lightTheme = {
     primaryColor: '#3498db',
@@ -84,14 +85,16 @@ export const lightTheme = {
   };
 
 ```
+
 #### darkTheme
+
 ```bash
 export const lightTheme = {
-    primaryColor: '#3498db',
-    secondaryColor: '#2ecc71',
-    textColor: '#333', // Common text color for light theme
-    backgroundColor: '#FFF', // Common background color for light theme
+  primaryColor: '#9b59b6',
+    secondaryColor: '#e74c3c',
+    textColor: '#DDD', // Common text color for dark theme
+    backgroundColor: '#111', // Common background color for dark theme
+    // Other dark theme properties
   };
 
 ```
-
