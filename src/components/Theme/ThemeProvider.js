@@ -1,7 +1,7 @@
 // ThemeProvider.js
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { Appearance } from 'react-native';
-import { lightTheme as defaultLightTheme, darkTheme as defaultDarkTheme } from '../utils/themes';
+import {lightTheme as defaultLightTheme, darkTheme as defaultDarkTheme } from '../../utils/themes'
 
 const ThemeContext = createContext();
 
