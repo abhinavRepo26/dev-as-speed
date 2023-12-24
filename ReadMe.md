@@ -98,3 +98,47 @@ export const darkTheme = {
   };
 
 ```
+
+## Network connection
+If you want to use network connectivity you need to add peer dependency :
+
+```bash
+npm install @react-native-community/netinfo
+# or
+yarn add @react-native-community/netinfo
+```
+### After add `NetworkProvider` - App.js
+```bash
+...
+import {ThemeProvider,NetworkProvider} from 'dev-as-speed'
+
+
+export default function App() {
+  return (
+    <ThemeProvider customLightTheme={customLightTheme} customDarkTheme={customDarkTheme}>
+      <NetworkProvider>
+      <MainNavigator />
+      </NetworkProvider>
+    </ThemeProvider>
+  );
+}
+```
+
+### Usage - 
+```base
+import React from 'react';
+import { useNetwork } from 'dev-as-speed';
+import { View, Text, TouchableOpacity } from 'react-native';
+
+const ComponentA = () => {
+  const {network} = useNetwork()
+  return (
+    <View>
+     <Text>{network}</Text>
+    </View>
+  );
+};
+
+export default Component;
+```
+
