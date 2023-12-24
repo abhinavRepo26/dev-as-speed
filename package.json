@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/abhinavRepo26/dev-as-speed#readme",
   "dependencies": {
-    "@react-native-community/netinfo": "^8.3.1"
+    "@react-native-community/netinfo": "^11.2.1"
   },
   "peerDependencies": {
     "react": "18.2.0",
