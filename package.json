@@ -12,7 +12,10 @@
   },
   "keywords": [
     "speed",
-    "components"
+    "components",
+    "theme",
+    "network",
+    "light & dark mode"
   ],
   "author": "Abhinav shrivastava",
   "license": "ISC",
@@ -20,6 +23,11 @@
     "url": "https://github.com/abhinavRepo26/dev-as-speed/issues"
   },
   "homepage": "https://github.com/abhinavRepo26/dev-as-speed#readme",
+ 
+  "dependencies": {
+    "@react-native-community/netinfo": "^8.3.1"
+
+  },
   "peerDependencies": {
     "react": "18.2.0",
     "react-native": "0.73.1"
