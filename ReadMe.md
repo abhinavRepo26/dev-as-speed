@@ -89,7 +89,7 @@ export const lightTheme = {
 #### darkTheme
 
 ```bash
-export const lightTheme = {
+export const darkTheme = {
   primaryColor: '#9b59b6',
     secondaryColor: '#e74c3c',
     textColor: '#DDD', // Common text color for dark theme
